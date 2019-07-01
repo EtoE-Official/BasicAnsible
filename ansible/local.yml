@@ -1,0 +1,6 @@
+- name: PlayBook for local vagrant server
+  hosts: local
+  become: yes
+  remote_user: vagrant
+  roles:
+    - nginx
